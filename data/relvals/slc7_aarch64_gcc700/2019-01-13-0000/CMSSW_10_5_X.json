@@ -86,6 +86,24 @@
     },
     {
         "exitcode": 0,
+        "id": "5.7",
+        "known_error": 0,
+        "name": "H130GGgluonfusion+H130GGgluonfusionFS+HARVESTFS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 21
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "101.0",
         "known_error": 0,
         "name": "SingleElectronE120EHCAL+SingleElectronE120EHCAL",
@@ -316,6 +334,29 @@
     },
     {
         "exitcode": 0,
+        "id": "136.7803",
+        "known_error": 0,
+        "name": "RunHLTPhy2017B_RAWAOD+RunHLTPhy2017B_RAWAOD+DQMHLTonRAWAOD_2017+HARVESTDQMHLTonAOD_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 66
+            },
+            {
+                "errors": 30,
+                "status": "PASSED",
+                "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "503.0",
         "known_error": 0,
         "name": "MinBias_13TeV_pythia8+MinBias_13TeV_pythia8+HARVESTGEN",
@@ -342,6 +383,42 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 19
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "507.0",
+        "known_error": 0,
+        "name": "SoftQCDDiffractive_13TeV_pythia8+SoftQCDDiffractive_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "508.0",
+        "known_error": 0,
+        "name": "SoftQCDnonDiffractive_13TeV_pythia8+SoftQCDnonDiffractive_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
             },
             {
                 "errors": 0,
@@ -396,6 +473,42 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "545.0",
+        "known_error": 0,
+        "name": "BsToMuMu_forSTEAM_13TeV_TuneCUETP8M1+BsToMuMu_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "560.0",
+        "known_error": 0,
+        "name": "ZprimeToll_M3000_13TeV_pythia8+ZprimeToll_M3000_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
             },
             {
                 "errors": 0,
@@ -478,6 +591,39 @@
             },
             {
                 "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1308.0",
+        "known_error": 0,
+        "name": "BeamHalo_13+BeamHalo_13INPUT+DIGIHAL+RECOHAL+ALCAHAL+HARVESTHAL",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 51
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 148
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 78,
                 "status": "PASSED",
                 "warnings": 0
             }
