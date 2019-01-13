@@ -7879,7 +7879,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-00/CMSSW_10_3_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2561, 
+                            "num_passed": 2573, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -13221,6 +13221,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "4020e1b28bb9f31506c3d65f1cfb74c44326c5e4", 
+                        "title": "DD4hep: SpecPars Processing", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25615", 
+                        "number": "25615", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }, 
+                    {
                         "hash": "793d75e56fbb6ab0e04069498f91f261c98e1a52", 
                         "title": "L1 prefiring weight producer ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25380", 
@@ -13336,7 +13345,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "4020e1b28bb9f31506c3d65f1cfb74c44326c5e4", 
+                        "title": "DD4hep: SpecPars Processing", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25615", 
+                        "number": "25615", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }
+                ], 
                 "fwlite": [], 
                 "release_name": "CMSSW_10_5_X", 
                 "builds": [], 
@@ -13381,7 +13400,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.CLANG-sun-00/CMSSW_10_5_CLANG_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 438, 
+                            "num_passed": 539, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -14171,15 +14190,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "6dfe606d076f3eb977a7d1be2fdedcb0500f3d30", 
-                        "title": "FillDescriptions for all 3 GsfElectronProducers", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25574", 
-                        "number": "25574", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
                         "hash": "b1a5f4a6d0ba2993d6b3471a1f1694deb16dbd5b", 
                         "title": "cleanup uninitialized value use cases based on valgrind checks", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25620", 
@@ -14187,6 +14197,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "slava77"
+                    }, 
+                    {
+                        "hash": "4020e1b28bb9f31506c3d65f1cfb74c44326c5e4", 
+                        "title": "DD4hep: SpecPars Processing", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25615", 
+                        "number": "25615", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
                     }, 
                     {
                         "hash": "fb5ff017dcc001141eed02dfc9b8b41cdba07be3", 
@@ -14198,15 +14217,6 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "95b688c32169a7c899f827ee79a943d7e8b2514e", 
-                        "title": "MTD geometry: add final proposed scenario (flat bars along phi) D38, fix the BTLDetId ieta navigation method", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25572", 
-                        "number": "25572", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "fabiocos"
-                    }, 
-                    {
                         "hash": "793d75e56fbb6ab0e04069498f91f261c98e1a52", 
                         "title": "L1 prefiring weight producer ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25380", 
@@ -14214,6 +14224,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "lathomas"
+                    }, 
+                    {
+                        "hash": "6dfe606d076f3eb977a7d1be2fdedcb0500f3d30", 
+                        "title": "FillDescriptions for all 3 GsfElectronProducers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25574", 
+                        "number": "25574", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "95b688c32169a7c899f827ee79a943d7e8b2514e", 
+                        "title": "MTD geometry: add final proposed scenario (flat bars along phi) D38, fix the BTLDetId ieta navigation method", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25572", 
+                        "number": "25572", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabiocos"
                     }
                 ], 
                 "fwlite": [], 
@@ -14571,7 +14599,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "4020e1b28bb9f31506c3d65f1cfb74c44326c5e4", 
+                        "title": "DD4hep: SpecPars Processing", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25615", 
+                        "number": "25615", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }
+                ], 
                 "fwlite": [], 
                 "release_name": "CMSSW_10_5_X", 
                 "builds": [], 
@@ -14618,7 +14656,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.DEVEL-sun-00/CMSSW_10_5_DEVEL_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2502, 
+                            "num_passed": 2510, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -15407,7 +15445,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "4020e1b28bb9f31506c3d65f1cfb74c44326c5e4", 
+                        "title": "DD4hep: SpecPars Processing", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25615", 
+                        "number": "25615", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }
+                ], 
                 "fwlite": [], 
                 "release_name": "CMSSW_10_5_X", 
                 "builds": [], 
@@ -15454,7 +15502,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.ROOT614-sun-00/CMSSW_10_5_ROOT614_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 846, 
+                            "num_passed": 987, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -16238,7 +16286,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "4020e1b28bb9f31506c3d65f1cfb74c44326c5e4", 
+                        "title": "DD4hep: SpecPars Processing", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25615", 
+                        "number": "25615", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }
+                ], 
                 "fwlite": [], 
                 "release_name": "CMSSW_10_5_X", 
                 "builds": [], 
@@ -16285,7 +16343,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.ROOT6-sun-00/CMSSW_10_5_ROOT6_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1244, 
+                            "num_passed": 1322, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -17071,6 +17129,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "4020e1b28bb9f31506c3d65f1cfb74c44326c5e4", 
+                        "title": "DD4hep: SpecPars Processing", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25615", 
+                        "number": "25615", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }, 
+                    {
                         "hash": "793d75e56fbb6ab0e04069498f91f261c98e1a52", 
                         "title": "L1 prefiring weight producer ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25380", 
@@ -17193,6 +17260,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "4020e1b28bb9f31506c3d65f1cfb74c44326c5e4", 
+                        "title": "DD4hep: SpecPars Processing", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25615", 
+                        "number": "25615", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }, 
                     {
                         "hash": "793d75e56fbb6ab0e04069498f91f261c98e1a52", 
                         "title": "L1 prefiring weight producer ", 
@@ -17319,7 +17395,17 @@
                 "comp_baseline": "inprogress", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "4020e1b28bb9f31506c3d65f1cfb74c44326c5e4", 
+                        "title": "DD4hep: SpecPars Processing", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25615", 
+                        "number": "25615", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }
+                ], 
                 "base_branch": "CMSSW_10_5_X", 
                 "release_name": "CMSSW_10_5_X", 
                 "builds": [], 
@@ -17361,7 +17447,7 @@
                 ], 
                 "compared_tags": "CMSSW_10_5_X_2019-01-12-1100-->CMSSW_10_5_X_2019-01-13-0000", 
                 "dqm_tests": "found", 
-                "check_headers": "inprogress", 
+                "check_headers": "found", 
                 "ib_date": "2019-01-13-0000-0000", 
                 "relvals": [
                     {
@@ -17370,7 +17456,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5-sun-00/CMSSW_10_5_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 380, 
+                            "num_passed": 464, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -17381,7 +17467,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.5-sun-00/CMSSW_10_5_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2225, 
+                            "num_passed": 2289, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -28278,7 +28364,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4.AN-sun-00/CMSSW_9_4_AN_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2021, 
+                            "num_passed": 2025, 
                             "known_failed": 12, 
                             "num_failed": 0
                         }
@@ -28533,7 +28619,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1958, 
+                            "num_passed": 1973, 
                             "known_failed": 12, 
                             "num_failed": 0
                         }
