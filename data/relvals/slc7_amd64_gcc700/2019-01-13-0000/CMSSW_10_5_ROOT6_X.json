@@ -694,9 +694,9 @@
                 "warnings": 19
             },
             {
-                "errors": -1,
+                "errors": 72,
                 "status": "PASSED",
-                "warnings": -1
+                "warnings": 0
             }
         ]
     },
@@ -1188,6 +1188,34 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 1437
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "34.0",
+        "known_error": 0,
+        "name": "QQH1352T+QQH1352T+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 53
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 75
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 421
             },
             {
                 "errors": 34,
@@ -1892,6 +1920,34 @@
                 "errors": 213,
                 "status": "PASSED",
                 "warnings": 1860
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.906",
+        "known_error": 0,
+        "name": "RunMuonEG2015D+RunMuonEG2015D+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 70
+            },
+            {
+                "errors": 215,
+                "status": "PASSED",
+                "warnings": 2738
             },
             {
                 "errors": 32,
