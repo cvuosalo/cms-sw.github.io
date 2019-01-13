@@ -30,6 +30,24 @@
                     "author_login": "slava77"
                 }, 
                 {
+                    "hash": "0089f0daaf75e9179b56ec50ef27cc9330b7893a", 
+                    "title": "Use strtok_r instead of strtok in SimpleMemoryCheck", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25642", 
+                    "number": "25642", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "d8383c688d2be291099c0d54af7a3b520b292c29", 
+                    "title": "Fix incorrect address usage in VirtualJetProducer", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25629", 
+                    "number": "25629", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
                     "hash": "4020e1b28bb9f31506c3d65f1cfb74c44326c5e4", 
                     "title": "DD4hep: SpecPars Processing", 
                     "url": "https://github.com/cms-sw/cmssw/pull/25615", 
@@ -64,6 +82,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "guitargeek"
+                }, 
+                {
+                    "hash": "2fbb8aa57bb29a97bc5bb412a5e8f7f3a9e0c859", 
+                    "title": "DD4hep: Use Threading Building Blocks", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25625", 
+                    "number": "25625", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ianna"
                 }, 
                 {
                     "hash": "95b688c32169a7c899f827ee79a943d7e8b2514e", 
