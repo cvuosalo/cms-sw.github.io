@@ -4533,6 +4533,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.896",
+        "known_error": 0,
+        "name": "RunCharmonium2018D+RunCharmonium2018D+HLTDR2_2018+RECODR2_2018reHLT_skimCharmonium_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 9,
+                "status": "PASSED",
+                "warnings": 1381
+            },
+            {
+                "errors": 21,
+                "status": "PASSED",
+                "warnings": 2772
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "140.51",
         "known_error": 0,
         "name": "RunHI2010+RunHI2010+REPACKHID+RECOHID11St3+HARVESTDHI",
@@ -7624,6 +7652,34 @@
     },
     {
         "exitcode": 0,
+        "id": "10024.4",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_trackingLowPU_2017+HARVESTFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 114
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 766
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "10024.5",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_pixelTrackingOnly_2017+HARVESTFull_pixelTrackingOnly_2017",
@@ -7949,6 +8005,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 1420
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11224.6",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018Design_GenSimFull_heCollapseINPUT+DigiFull_heCollapse_2018Design+RecoFull_heCollapse_2018Design+HARVESTFull_heCollapse_2018Design",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 774
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 433
             },
             {
                 "errors": 27,

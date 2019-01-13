@@ -11012,6 +11012,34 @@
     },
     {
         "exitcode": 0,
+        "id": "10225.0",
+        "known_error": 0,
+        "name": "ZEE_13+ZEE_13TeV_TuneCUETP8M1_2017PU_GenSimFullINPUT+DigiFullPU_2017PU+RecoFullPU_2017PU+HARVESTFullPU_2017PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 567
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1214
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "10424.0",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2017Design_GenSimFullINPUT+DigiFull_2017Design+RecoFull_2017Design+HARVESTFull_2017Design",
@@ -11129,6 +11157,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 62
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10826.0",
+        "known_error": 0,
+        "name": "QCD_Pt_600_800_13+QCD_Pt_600_800_13TeV_TuneCUETP8M1_2018_GenSimFull+DigiFull_2018+RecoFull_2018+ALCAFull_2018+HARVESTFull_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 80
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1082
+            },
+            {
+                "errors": 17,
+                "status": "PASSED",
+                "warnings": 1641
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 80
             },
             {
                 "errors": 4,
@@ -12456,6 +12517,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 1351
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250200.17",
+        "known_error": 0,
+        "name": "ZEE_13UP17+ZEE_13UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 6,
+                "status": "PASSED",
+                "warnings": 15673
+            },
+            {
+                "errors": 21,
+                "status": "PASSED",
+                "warnings": 1438
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
