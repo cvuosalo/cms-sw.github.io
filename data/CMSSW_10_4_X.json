@@ -40,7 +40,7 @@
                 "slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -122,7 +122,7 @@
             ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "Not Found", 
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -277,7 +277,7 @@
                 "slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -355,7 +355,7 @@
                 "slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -433,7 +433,7 @@
                 "slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -511,7 +511,7 @@
                 "slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -589,7 +589,7 @@
                 "slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -667,7 +667,7 @@
                 "slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -745,7 +745,7 @@
                 "slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -823,7 +823,7 @@
                 "slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -901,7 +901,7 @@
                 "slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -979,7 +979,7 @@
                 "slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
-                "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
+                "slc6_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -1053,49 +1053,19 @@
         }, 
         {
             "comp_baseline_state": "ok", 
-            "tests_archs": [
-                "slc6_amd64_gcc700"
-            ], 
+            "tests_archs": [], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc7_amd64_gcc700", 
                 "slc6_amd64_gcc700": "IB/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
-            "fwlite": [
-                {
-                    "arch": "slc6_amd64_gcc700", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2019-01-06-0000/new_FWLITE/logAnalysis.pkl", 
-                    "details": {}
-                }
-            ], 
+            "fwlite": [], 
             "compared_tags": "CMSSW_10_4_0_mtd3-->CMSSW_10_4_X_2019-01-06-0000", 
             "dqm_tests": "found", 
-            "utests": [
-                {
-                    "arch": "slc6_amd64_gcc700", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2019-01-06-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "0"
-                    }
-                }
-            ], 
+            "utests": [], 
             "ib_date": "2019-01-06-0000-0000", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc6_amd64_gcc700", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2019-01-06-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 2756, 
-                        "known_failed": 0, 
-                        "num_failed": 1
-                    }
-                }
-            ], 
+            "relvals": [], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_10_4_X", 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_4_X_2019-01-06-0000/slc6_amd64_gcc700/-GenuineIntel/matrix-results", 
@@ -1104,16 +1074,7 @@
             "merged_prs": [], 
             "base_branch": "CMSSW_10_4_X", 
             "release_name": "CMSSW_10_4_X_2019-01-06-0000", 
-            "builds": [
-                {
-                    "arch": "slc6_amd64_gcc700", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2019-01-06-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 690
-                    }
-                }
-            ], 
+            "builds": [], 
             "material_budget_v2": "not-found", 
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
@@ -1122,14 +1083,7 @@
             "static_checks": "not-found", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [
-                {
-                    "arch": "slc6_amd64_gcc700", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.4-sun-00/CMSSW_10_4_X_2019-01-06-0000/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
+            "addons": [], 
             "hlt_tests": "found"
         }, 
         {
