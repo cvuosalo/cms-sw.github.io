@@ -1115,6 +1115,29 @@
     },
     {
         "exitcode": 0,
+        "id": "106.0",
+        "known_error": 0,
+        "name": "bJpsiX+bJpsiX+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "107.0",
         "known_error": 0,
         "name": "QQH120Inv+QQH120Inv+DIGI+RECO",
@@ -2488,6 +2511,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 450
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.781",
+        "known_error": 0,
+        "name": "RunDoubleEG2017B+RunDoubleEG2017B+HLTDR2_2017+RECODR2_2017reHLT_skimDoubleEG_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 331
+            },
+            {
+                "errors": 212,
+                "status": "PASSED",
+                "warnings": 13684
+            },
+            {
+                "errors": 31,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },

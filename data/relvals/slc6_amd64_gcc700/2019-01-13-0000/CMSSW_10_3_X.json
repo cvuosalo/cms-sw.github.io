@@ -2598,6 +2598,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.842",
+        "known_error": 0,
+        "name": "RunDisplacedJet2017E+RunDisplacedJet2017E+HLTDR2_2017+RECODR2_2017reHLT_skimDisplacedJet_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 113
+            },
+            {
+                "errors": 210,
+                "status": "PASSED",
+                "warnings": 2305
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.844",
         "known_error": 0,
         "name": "RunCharmonium2017B+RunCharmonium2017B+HLTDR2_2017+RECODR2_2017reHLT_skimCharmonium_Prompt+HARVEST2017",
@@ -3983,6 +4011,29 @@
     },
     {
         "exitcode": 0,
+        "id": "1303.17",
+        "known_error": 0,
+        "name": "ProdQCD_Pt_3000_3500_13UP17+ProdQCD_Pt_3000_3500_13UP17+DIGIUP17PROD1+RECOPRODUP17",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1306.0",
         "known_error": 0,
         "name": "SingleMuPt1_UP15+SingleMuPt1_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -4220,6 +4271,24 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1325.6",
+        "known_error": 0,
+        "name": "TTbar_13_94Xv1NanoAODINPUT+TTbar_13_94Xv1NanoAODINPUT+NANOAODMC2017_94XMiniAODv1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 512
             }
         ]
     },
