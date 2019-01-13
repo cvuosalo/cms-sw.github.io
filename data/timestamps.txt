@@ -12,7 +12,7 @@
 201901081159.16 data/relvals/slc7_aarch64_gcc700/2019-01-07-2300/CMSSW_10_5_X.json
 201901110525.34 data/relvals/slc7_aarch64_gcc700/2019-01-10-1100/CMSSW_10_5_X.json
 201901111605.12 data/relvals/slc7_aarch64_gcc700/2019-01-10-2300/CMSSW_10_5_X.json
-201901130606.54 data/relvals/slc6_amd64_gcc481/2019-01-13-0000/CMSSW_7_1_X.json
+201901130625.51 data/relvals/slc6_amd64_gcc481/2019-01-13-0000/CMSSW_7_1_X.json
 201901091705.57 data/relvals/slc7_amd64_gcc630/2019-01-09-1100/CMSSW_9_3_X.json
 201901101005.41 data/relvals/slc7_amd64_gcc630/2019-01-09-2300/CMSSW_9_4_X.json
 201901091935.28 data/relvals/slc7_amd64_gcc630/2019-01-09-1100/CMSSW_9_4_X.json
@@ -44,7 +44,6 @@
 201901091735.12 data/relvals/slc7_amd64_gcc700/2019-01-08-2300/CMSSW_10_5_CXXMODULE_X.json
 201901091036.41 data/relvals/slc7_amd64_gcc700/2019-01-08-2300/CMSSW_10_5_DEVEL_X.json
 201901091310.34 data/relvals/slc7_amd64_gcc700/2019-01-08-2300/CMSSW_10_5_CLANG_X.json
-201901062341.48 data/relvals/slc7_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_ROOT6_X.json
 201901130614.15 data/relvals/slc7_amd64_gcc700/2019-01-13-0000/CMSSW_10_3_X.json
 201901070250.19 data/relvals/slc7_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_ROOT614_X.json
 201901070036.13 data/relvals/slc7_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_DEVEL_X.json
@@ -66,7 +65,7 @@
 201901111228.23 data/relvals/slc7_amd64_gcc700/2019-01-10-2300/CMSSW_10_2_X.json
 201901111525.31 data/relvals/slc7_amd64_gcc700/2019-01-10-2300/CMSSW_10_5_ROOT614_X.json
 201901111534.58 data/relvals/slc7_amd64_gcc700/2019-01-10-2300/CMSSW_10_5_CLANG_X.json
-201901130606.54 data/relvals/slc6_amd64_gcc472/2019-01-13-0000/CMSSW_5_3_X.json
+201901130625.51 data/relvals/slc6_amd64_gcc472/2019-01-13-0000/CMSSW_5_3_X.json
 201901101235.10 data/relvals/slc6_amd64_gcc700/2019-01-09-2300/CMSSW_10_5_X.json
 201901100809.03 data/relvals/slc6_amd64_gcc700/2019-01-09-2300/CMSSW_10_2_X.json
 201901100652.37 data/relvals/slc6_amd64_gcc700/2019-01-09-2300/CMSSW_10_4_X.json
@@ -96,7 +95,6 @@
 201901070847.19 data/relvals/slc6_amd64_gcc700/2019-01-06-2300/CMSSW_10_2_X.json
 201901070036.13 data/relvals/slc6_amd64_gcc700/2019-01-06-0000/CMSSW_10_2_X.json
 201901062335.32 data/relvals/slc6_amd64_gcc700/2019-01-06-0000/CMSSW_10_4_X.json
-201901062034.53 data/relvals/slc6_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_X.json
 201901071936.07 data/relvals/slc6_amd64_gcc700/2019-01-07-1100/CMSSW_10_4_X.json
 201901080935.46 data/relvals/slc6_amd64_gcc700/2019-01-07-2300/CMSSW_10_2_X.json
 201901072105.12 data/relvals/slc6_amd64_gcc700/2019-01-07-1100/CMSSW_10_2_X.json
@@ -162,7 +160,6 @@
 201901091036.41 data/unitTests/slc7_amd64_gcc700/2019-01-08-2300/CMSSW_10_5_CXXMODULE_X.json
 201901090739.14 data/unitTests/slc7_amd64_gcc700/2019-01-08-2300/CMSSW_10_5_DEVEL_X.json
 201901090639.49 data/unitTests/slc7_amd64_gcc700/2019-01-08-2300/CMSSW_10_5_CLANG_X.json
-201901061853.35 data/unitTests/slc7_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_ROOT6_X.json
 201901061957.50 data/unitTests/slc7_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_ROOT614_X.json
 201901061823.04 data/unitTests/slc7_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_DEVEL_X.json
 201901061936.45 data/unitTests/slc7_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_CLANG_X.json
@@ -213,7 +210,6 @@
 201901070044.41 data/unitTests/slc6_amd64_gcc700/2019-01-06-2300/CMSSW_10_2_X.json
 201901061805.51 data/unitTests/slc6_amd64_gcc700/2019-01-06-0000/CMSSW_10_2_X.json
 201901061707.00 data/unitTests/slc6_amd64_gcc700/2019-01-06-0000/CMSSW_10_4_X.json
-201901061456.14 data/unitTests/slc6_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_X.json
 201901071306.52 data/unitTests/slc6_amd64_gcc700/2019-01-07-1100/CMSSW_10_4_X.json
 201901080106.16 data/unitTests/slc6_amd64_gcc700/2019-01-07-2300/CMSSW_10_2_X.json
 201901071306.52 data/unitTests/slc6_amd64_gcc700/2019-01-07-1100/CMSSW_10_2_X.json
@@ -259,7 +255,7 @@
 201901081317.09 data/jobreports/slc7_aarch64_gcc700/CMSSW_10_5_X/2019-01-07-2300.csv
 201901110525.53 data/jobreports/slc7_aarch64_gcc700/CMSSW_10_5_X/2019-01-10-1100.csv
 201901111615.37 data/jobreports/slc7_aarch64_gcc700/CMSSW_10_5_X/2019-01-10-2300.csv
-201901130614.16 data/jobreports/slc6_amd64_gcc481/CMSSW_7_1_X/2019-01-13-0000.csv
+201901130625.53 data/jobreports/slc6_amd64_gcc481/CMSSW_7_1_X/2019-01-13-0000.csv
 201901091706.13 data/jobreports/slc7_amd64_gcc630/CMSSW_9_3_X/2019-01-09-1100.csv
 201901101005.50 data/jobreports/slc7_amd64_gcc630/CMSSW_9_4_X/2019-01-09-2300.csv
 201901091943.35 data/jobreports/slc7_amd64_gcc630/CMSSW_9_4_X/2019-01-09-1100.csv
@@ -291,8 +287,7 @@
 201901091739.56 data/jobreports/slc7_amd64_gcc700/CMSSW_10_5_CXXMODULE_X/2019-01-08-2300.csv
 201901091044.44 data/jobreports/slc7_amd64_gcc700/CMSSW_10_5_DEVEL_X/2019-01-08-2300.csv
 201901091311.02 data/jobreports/slc7_amd64_gcc700/CMSSW_10_5_CLANG_X/2019-01-08-2300.csv
-201901062353.40 data/jobreports/slc7_amd64_gcc700/CMSSW_10_5_ROOT6_X/2019-01-06-0000.csv
-201901130614.17 data/jobreports/slc7_amd64_gcc700/CMSSW_10_3_X/2019-01-13-0000.csv
+201901130625.54 data/jobreports/slc7_amd64_gcc700/CMSSW_10_3_X/2019-01-13-0000.csv
 201901070250.30 data/jobreports/slc7_amd64_gcc700/CMSSW_10_5_ROOT614_X/2019-01-06-0000.csv
 201901070044.53 data/jobreports/slc7_amd64_gcc700/CMSSW_10_5_DEVEL_X/2019-01-06-0000.csv
 201901070107.40 data/jobreports/slc7_amd64_gcc700/CMSSW_10_5_CLANG_X/2019-01-06-0000.csv
@@ -313,7 +308,7 @@
 201901111228.35 data/jobreports/slc7_amd64_gcc700/CMSSW_10_2_X/2019-01-10-2300.csv
 201901111525.50 data/jobreports/slc7_amd64_gcc700/CMSSW_10_5_ROOT614_X/2019-01-10-2300.csv
 201901120144.16 data/jobreports/slc7_amd64_gcc700/CMSSW_10_5_CLANG_X/2019-01-10-2300.csv
-201901130613.40 data/jobreports/slc6_amd64_gcc472/CMSSW_5_3_X/2019-01-13-0000.csv
+201901130625.51 data/jobreports/slc6_amd64_gcc472/CMSSW_5_3_X/2019-01-13-0000.csv
 201901101235.22 data/jobreports/slc6_amd64_gcc700/CMSSW_10_5_X/2019-01-09-2300.csv
 201901100831.47 data/jobreports/slc6_amd64_gcc700/CMSSW_10_2_X/2019-01-09-2300.csv
 201901100652.48 data/jobreports/slc6_amd64_gcc700/CMSSW_10_4_X/2019-01-09-2300.csv
@@ -343,7 +338,6 @@
 201901070847.28 data/jobreports/slc6_amd64_gcc700/CMSSW_10_2_X/2019-01-06-2300.csv
 201901070036.22 data/jobreports/slc6_amd64_gcc700/CMSSW_10_2_X/2019-01-06-0000.csv
 201901062335.44 data/jobreports/slc6_amd64_gcc700/CMSSW_10_4_X/2019-01-06-0000.csv
-201901062035.04 data/jobreports/slc6_amd64_gcc700/CMSSW_10_5_X/2019-01-06-0000.csv
 201901071941.23 data/jobreports/slc6_amd64_gcc700/CMSSW_10_4_X/2019-01-07-1100.csv
 201901080936.14 data/jobreports/slc6_amd64_gcc700/CMSSW_10_2_X/2019-01-07-2300.csv
 201901072106.59 data/jobreports/slc6_amd64_gcc700/CMSSW_10_2_X/2019-01-07-1100.csv
@@ -377,7 +371,7 @@
 201901081317.00 data/commands/slc7_aarch64_gcc700/2019-01-07-2300/CMSSW_10_5_X.json
 201901110525.53 data/commands/slc7_aarch64_gcc700/2019-01-10-1100/CMSSW_10_5_X.json
 201901111615.34 data/commands/slc7_aarch64_gcc700/2019-01-10-2300/CMSSW_10_5_X.json
-201901130614.15 data/commands/slc6_amd64_gcc481/2019-01-13-0000/CMSSW_7_1_X.json
+201901130625.54 data/commands/slc6_amd64_gcc481/2019-01-13-0000/CMSSW_7_1_X.json
 201901091706.09 data/commands/slc7_amd64_gcc630/2019-01-09-1100/CMSSW_9_3_X.json
 201901101005.53 data/commands/slc7_amd64_gcc630/2019-01-09-2300/CMSSW_9_4_X.json
 201901091943.32 data/commands/slc7_amd64_gcc630/2019-01-09-1100/CMSSW_9_4_X.json
@@ -409,8 +403,7 @@
 201901091739.46 data/commands/slc7_amd64_gcc700/2019-01-08-2300/CMSSW_10_5_CXXMODULE_X.json
 201901091044.36 data/commands/slc7_amd64_gcc700/2019-01-08-2300/CMSSW_10_5_DEVEL_X.json
 201901091311.03 data/commands/slc7_amd64_gcc700/2019-01-08-2300/CMSSW_10_5_CLANG_X.json
-201901062353.31 data/commands/slc7_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_ROOT6_X.json
-201901130614.16 data/commands/slc7_amd64_gcc700/2019-01-13-0000/CMSSW_10_3_X.json
+201901130625.57 data/commands/slc7_amd64_gcc700/2019-01-13-0000/CMSSW_10_3_X.json
 201901070250.21 data/commands/slc7_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_ROOT614_X.json
 201901070044.43 data/commands/slc7_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_DEVEL_X.json
 201901070107.32 data/commands/slc7_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_CLANG_X.json
@@ -431,7 +424,7 @@
 201901111228.30 data/commands/slc7_amd64_gcc700/2019-01-10-2300/CMSSW_10_2_X.json
 201901111525.54 data/commands/slc7_amd64_gcc700/2019-01-10-2300/CMSSW_10_5_ROOT614_X.json
 201901120144.13 data/commands/slc7_amd64_gcc700/2019-01-10-2300/CMSSW_10_5_CLANG_X.json
-201901130614.15 data/commands/slc6_amd64_gcc472/2019-01-13-0000/CMSSW_5_3_X.json
+201901130625.54 data/commands/slc6_amd64_gcc472/2019-01-13-0000/CMSSW_5_3_X.json
 201901101235.16 data/commands/slc6_amd64_gcc700/2019-01-09-2300/CMSSW_10_5_X.json
 201901100831.43 data/commands/slc6_amd64_gcc700/2019-01-09-2300/CMSSW_10_2_X.json
 201901100652.40 data/commands/slc6_amd64_gcc700/2019-01-09-2300/CMSSW_10_4_X.json
@@ -461,7 +454,6 @@
 201901070847.20 data/commands/slc6_amd64_gcc700/2019-01-06-2300/CMSSW_10_2_X.json
 201901070036.15 data/commands/slc6_amd64_gcc700/2019-01-06-0000/CMSSW_10_2_X.json
 201901062335.41 data/commands/slc6_amd64_gcc700/2019-01-06-0000/CMSSW_10_4_X.json
-201901062034.55 data/commands/slc6_amd64_gcc700/2019-01-06-0000/CMSSW_10_5_X.json
 201901071941.11 data/commands/slc6_amd64_gcc700/2019-01-07-1100/CMSSW_10_4_X.json
 201901080935.57 data/commands/slc6_amd64_gcc700/2019-01-07-2300/CMSSW_10_2_X.json
 201901072106.52 data/commands/slc6_amd64_gcc700/2019-01-07-1100/CMSSW_10_2_X.json
