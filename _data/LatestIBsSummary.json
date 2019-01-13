@@ -156,6 +156,16 @@
             "latest_IB": "CMSSW_5_3_X_2019-01-13-0000"
         }
     }, 
+    "CMSSW_8_0_X": {
+        "slc6_amd64_gcc530": {
+            "status": "unknown", 
+            "latest_IB": "CMSSW_8_0_X_2019-01-13-0000"
+        }, 
+        "slc7_amd64_gcc530": {
+            "status": "unknown", 
+            "latest_IB": "CMSSW_8_0_X_2019-01-13-0000"
+        }
+    }, 
     "CMSSW_10_5_CXXMODULE_X": {
         "slc7_amd64_gcc700": {
             "status": "unknown", 
