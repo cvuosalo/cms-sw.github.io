@@ -3596,6 +3596,34 @@
     },
     {
         "exitcode": 0,
+        "id": "134.71",
+        "known_error": 0,
+        "name": "RunZeroBias2015B+RunZeroBias2015B+HLTDR2_50ns+RECODR2_50nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 197
+            },
+            {
+                "errors": 212,
+                "status": "PASSED",
+                "warnings": 8732
+            },
+            {
+                "errors": 31,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "134.801",
         "known_error": 0,
         "name": "RunHLTPhy2015C+RunHLTPhy2015C+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
@@ -4230,6 +4258,34 @@
                 "errors": 213,
                 "status": "PASSED",
                 "warnings": 6834
+            },
+            {
+                "errors": 31,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.911",
+        "known_error": 0,
+        "name": "RunSinglePh2015D+RunSinglePh2015D+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 211
+            },
+            {
+                "errors": 214,
+                "status": "PASSED",
+                "warnings": 9965
             },
             {
                 "errors": 31,
@@ -14939,6 +14995,34 @@
     },
     {
         "exitcode": 0,
+        "id": "50207.0",
+        "known_error": 0,
+        "name": "NuGun_UP15+NuGun_UP15INPUT+DIGIUP15_PU50+RECOUP15_PU50+HARVESTUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 1871
+            },
+            {
+                "errors": 75,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "50208.0",
         "known_error": 0,
         "name": "SMS-T1tttt_mGl-1500_mLSP-100_13+SMS-T1tttt_mGl-1500_mLSP-100_13INPUT+DIGIUP15_PU50+RECOUP15_PU50+HARVESTUP15_PU50",
@@ -15378,6 +15462,34 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 1384
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250204.17",
+        "known_error": 0,
+        "name": "QQH1352T_13UP17+QQH1352T_13UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 42,
+                "status": "PASSED",
+                "warnings": 1104
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1118
             },
             {
                 "errors": 33,

@@ -2967,6 +2967,34 @@
     },
     {
         "exitcode": 0,
+        "id": "134.804",
+        "known_error": 0,
+        "name": "RunJetHT2015C+RunJetHT2015C+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 116
+            },
+            {
+                "errors": 212,
+                "status": "PASSED",
+                "warnings": 2818
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "134.805",
         "known_error": 0,
         "name": "RunMET2015C+RunMET2015C+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
@@ -3181,6 +3209,34 @@
                 "errors": 215,
                 "status": "PASSED",
                 "warnings": 3170
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.908",
+        "known_error": 0,
+        "name": "RunSingleMuPrpt2015D+RunSingleMuPrpt2015D+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 166
+            },
+            {
+                "errors": 207,
+                "status": "PASSED",
+                "warnings": 3498
             },
             {
                 "errors": 32,
@@ -4873,6 +4929,34 @@
                 "errors": 30,
                 "status": "PASSED",
                 "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.781",
+        "known_error": 0,
+        "name": "RunDoubleEG2017B+RunDoubleEG2017B+HLTDR2_2017+RECODR2_2017reHLT_skimDoubleEG_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 86
+            },
+            {
+                "errors": 211,
+                "status": "PASSED",
+                "warnings": 2166
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -6729,6 +6813,34 @@
                 "errors": 18,
                 "status": "PASSED",
                 "warnings": 2018
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.885",
+        "known_error": 0,
+        "name": "RunHLTPhy2018D+RunHLTPhy2018D+HLTDR2_2018+RECODR2_2018reHLT_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1970
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 2456
             },
             {
                 "errors": 26,
@@ -12065,6 +12177,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 71
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11024.0",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018PU_GenSimFullINPUT+DigiFullPU_2018PU+RecoFullPU_2018PU+HARVESTFullPU_2018PU+NanoFull_2018PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1325
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1275
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
             }
         ]
     },
