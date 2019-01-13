@@ -82,7 +82,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2354, 
+                        "num_passed": 2421, 
                         "known_failed": 12, 
                         "num_failed": 23
                     }
@@ -93,9 +93,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2558, 
+                        "num_passed": 2568, 
                         "known_failed": 5, 
-                        "num_failed": 16
+                        "num_failed": 17
                     }
                 }
             ], 
