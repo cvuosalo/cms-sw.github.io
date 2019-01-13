@@ -7630,6 +7630,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.822",
+        "known_error": 0,
+        "name": "RunSingleEl2017E+RunSingleEl2017E+HLTDR2_2017+RECODR2_2017reHLT_Prompt_L1TEgDQM+HARVEST2017_L1TEgDQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 383
+            },
+            {
+                "errors": 212,
+                "status": "PASSED",
+                "warnings": 9162
+            },
+            {
+                "errors": 31,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.823",
         "known_error": 0,
         "name": "RunSingleMu2017E+RunSingleMu2017E+HLTDR2_2017+RECODR2_2017reHLT_skimSingleMu_Prompt_Lumi+HARVEST2017_L1TMuDQM",
@@ -10198,6 +10226,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1102.0",
+        "known_error": 0,
+        "name": "RR+TTbarINPUT+DIGI+RECO+RECOFROMRECO+COPYPASTE",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 616
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4689
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1279
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 75
             }
         ]
     },
