@@ -6740,6 +6740,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.847",
+        "known_error": 0,
+        "name": "RunCharmonium2017E+RunCharmonium2017E+HLTDR2_2017+RECODR2_2017reHLT_skimCharmonium_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 83
+            },
+            {
+                "errors": 212,
+                "status": "PASSED",
+                "warnings": 2479
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.852",
         "known_error": 0,
         "name": "RunJetHT2018A+RunJetHT2018A+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt+HARVEST2018",
@@ -6949,6 +6977,62 @@
                 "errors": 12,
                 "status": "PASSED",
                 "warnings": 3914
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.8642",
+        "known_error": 0,
+        "name": "RunJetHT2018BHEfail+RunJetHT2018BHEfail+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt_HEfail+HARVEST2018_HEfail",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2654
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 2066
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.8643",
+        "known_error": 0,
+        "name": "RunJetHT2018BBadHcalMitig+RunJetHT2018BBadHcalMitig+HLTDR2_2018_BadHcalMitig+RECODR2_2018reHLT_skimJetHT_Prompt_BadHcalMitig+HARVEST2018_BadHcalMitig",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1429
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 3295
             },
             {
                 "errors": 26,
