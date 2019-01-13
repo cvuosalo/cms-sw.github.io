@@ -1,0 +1,801 @@
+{
+    "base_branch": "CMSSW_10_5_X", 
+    "release_name": "CMSSW_10_5_CLANG_X", 
+    "comparisons": [
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [], 
+            "cmsdistTags": {}, 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_5_X", 
+            "compared_tags": "CMSSW_10_5_CLANG_X_2019-01-11-2300-->CMSSW_10_5_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "2019-01-11-2300-0001", 
+            "relvals": [], 
+            "release_queue": "CMSSW_10_5_CLANG_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "793d75e56fbb6ab0e04069498f91f261c98e1a52", 
+                    "title": "L1 prefiring weight producer ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25380", 
+                    "number": "25380", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "lathomas"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_5_X", 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc7_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc7_amd64_gcc700": "IB/CMSSW_10_5_CLANG_X_2019-01-10-2300/slc7_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_5_X", 
+            "compared_tags": "CMSSW_10_5_CLANG_X_2019-01-10-2300-->CMSSW_10_5_CLANG_X_2019-01-11-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/fri/10.5.CLANG-fri-23/CMSSW_10_5_CLANG_X_2019-01-11-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "6"
+                    }
+                }
+            ], 
+            "ib_date": "2019-01-11-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/fri/10.5.CLANG-fri-23/CMSSW_10_5_CLANG_X_2019-01-11-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2758, 
+                        "known_failed": 0, 
+                        "num_failed": 2
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_5_CLANG_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "6dfe606d076f3eb977a7d1be2fdedcb0500f3d30", 
+                    "title": "FillDescriptions for all 3 GsfElectronProducers", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25574", 
+                    "number": "25574", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "guitargeek"
+                }, 
+                {
+                    "hash": "b1a5f4a6d0ba2993d6b3471a1f1694deb16dbd5b", 
+                    "title": "cleanup uninitialized value use cases based on valgrind checks", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25620", 
+                    "number": "25620", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "slava77"
+                }, 
+                {
+                    "hash": "fb5ff017dcc001141eed02dfc9b8b41cdba07be3", 
+                    "title": "Minor improvements to HLTPixlMBForAlignmentFilter", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25550", 
+                    "number": "25550", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "95b688c32169a7c899f827ee79a943d7e8b2514e", 
+                    "title": "MTD geometry: add final proposed scenario (flat bars along phi) D38, fix the BTLDetId ieta navigation method", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25572", 
+                    "number": "25572", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fabiocos"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_5_CLANG_X_2019-01-11-2300", 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/fri/10.5.CLANG-fri-23/CMSSW_10_5_CLANG_X_2019-01-11-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 5
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/fri/10.5.CLANG-fri-23/CMSSW_10_5_CLANG_X_2019-01-11-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc7_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc7_amd64_gcc700": "IB/CMSSW_10_5_CLANG_X_2019-01-10-2300/slc7_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_5_X", 
+            "compared_tags": "CMSSW_10_5_CLANG_X_2019-01-09-2300-->CMSSW_10_5_CLANG_X_2019-01-10-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/thu/10.5.CLANG-thu-23/CMSSW_10_5_CLANG_X_2019-01-10-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "7"
+                    }
+                }
+            ], 
+            "ib_date": "2019-01-10-2300-0000", 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/thu/10.5.CLANG-thu-23/CMSSW_10_5_CLANG_X_2019-01-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2399, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_5_CLANG_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "4193aceb7c8260aa3b1104371bf6a48eba5c933b", 
+                    "title": "Fix missing initializations and dead assignments in RecoMET/METAlgorithms", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25611", 
+                    "number": "25611", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "perrotta"
+                }, 
+                {
+                    "hash": "18d72fbb3978e95dd558c094063572b7c75132ac", 
+                    "title": "Implement an EDFilter to select events based on their bunch crossing number (master)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25018", 
+                    "number": "25018", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fwyzard"
+                }, 
+                {
+                    "hash": "3cfce3daac9cb8f958b468414e2121f62273358f", 
+                    "title": "Add SwitchProducer mechanism to allow runtime decision which algorithm implementation to run", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25439", 
+                    "number": "25439", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "makortel"
+                }, 
+                {
+                    "hash": "f5eb812f52d925ebd6a7e309b93ac9c2f9cbb879", 
+                    "title": "Initial version of MTDTrackExtender and MTDClusterizer (#25063 squashed)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25612", 
+                    "number": "25612", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "lgray"
+                }, 
+                {
+                    "hash": "4cd0474f286bb93bd25144f8511856edffab826d", 
+                    "title": "move testdata to external repo IOPool-Input", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25607", 
+                    "number": "25607", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "746f6a9890dad8529a433ce8fdcd08eebfc0b5de", 
+                    "title": "Use unique bin names in L1TdeStage2CaloLayer1", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25594", 
+                    "number": "25594", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "29abb81232dc6a4fb73491e6c26f1ea231461b22", 
+                    "title": "Add edm::ElementID class", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25618", 
+                    "number": "25618", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "makortel"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_5_CLANG_X_2019-01-10-2300", 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/thu/10.5.CLANG-thu-23/CMSSW_10_5_CLANG_X_2019-01-10-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 172, 
+                        "ignoreWarning": 441
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/thu/10.5.CLANG-thu-23/CMSSW_10_5_CLANG_X_2019-01-10-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc7_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc7_amd64_gcc700": "IB/CMSSW_10_5_CLANG_X_2019-01-09-2300/slc7_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_5_X", 
+            "compared_tags": "CMSSW_10_5_CLANG_X_2019-01-08-2300-->CMSSW_10_5_CLANG_X_2019-01-09-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.5.CLANG-wed-23/CMSSW_10_5_CLANG_X_2019-01-09-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "8"
+                    }
+                }
+            ], 
+            "ib_date": "2019-01-09-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.5.CLANG-wed-23/CMSSW_10_5_CLANG_X_2019-01-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2758, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_5_CLANG_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "5cbf747d81737443ab5e96aba253e1b8d388109a", 
+                    "title": "Replace call to Modifier.isChosen() with toModify() in rpcChamberMasker_cff", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25581", 
+                    "number": "25581", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "makortel"
+                }, 
+                {
+                    "hash": "8c278f29b5ee1cadcb8a5ab964eb70f6479f4854", 
+                    "title": "Replaced some deprecated std functions", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25521", 
+                    "number": "25521", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "guitargeek"
+                }, 
+                {
+                    "hash": "d589ed664100b4fa8bf226ae3eb21f870e06f8ca", 
+                    "title": "Removed unused variables in HLTrigger/Muon", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25551", 
+                    "number": "25551", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "c9db74afd9bab85b790e6b016436ada977062a6e", 
+                    "title": "[10.5.X][UPGRADE_L1] Fix deps to resolve undefined reference mentioned in UBSAN IBS", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25563", 
+                    "number": "25563", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "cdf5291d331d16f5cc0133c039e7f77384a0daa4", 
+                    "title": "Avoid comparing unrelated enums in cond::Time", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25557", 
+                    "number": "25557", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "794ad6d703d9f0e217531cff406d8be33a39c408", 
+                    "title": "LogVerbatim now works in HGCalTopology", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25585", 
+                    "number": "25585", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "a8b3b8e6c12c07dbc59b1f39cf5173b6f1c7ef16", 
+                    "title": "fix unintialized value use in RunManagerMTWorker ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25597", 
+                    "number": "25597", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "slava77"
+                }, 
+                {
+                    "hash": "ba83962c43dc99238edba606e37411febf0da7cc", 
+                    "title": "Adding Sherpa ttbar+2j GEN Relval workflow 536", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25461", 
+                    "number": "25461", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "SanghyunKo"
+                }, 
+                {
+                    "hash": "36a41b41f2847f0d48175f7e4f1f2d8c70c4c989", 
+                    "title": "Fixed mkdqmedanalyzer to create code that will pass code-checks without errors", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25596", 
+                    "number": "25596", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "andrius-k"
+                }, 
+                {
+                    "hash": "6e3991cbe23a672b26f622e173101dfeb38bd26c", 
+                    "title": "Ecal TPG Weights definition by strip number", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25510", 
+                    "number": "25510", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "depasse"
+                }, 
+                {
+                    "hash": "c207b5002ed80aab5720aab53872a93baf1e7ce4", 
+                    "title": "New proton transport clean (following up PR 25355)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25599", 
+                    "number": "25599", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "21c6c5419e23eb061268bb41401b401b6526d681", 
+                    "title": "Changed forward declaration of EVTColContainer to struct", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25548", 
+                    "number": "25548", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_5_CLANG_X_2019-01-09-2300", 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.5.CLANG-wed-23/CMSSW_10_5_CLANG_X_2019-01-09-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 174, 
+                        "ignoreWarning": 443
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.5.CLANG-wed-23/CMSSW_10_5_CLANG_X_2019-01-09-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc7_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc7_amd64_gcc700": "IB/CMSSW_10_5_CLANG_X_2019-01-08-2300/slc7_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_5_X", 
+            "compared_tags": "CMSSW_10_5_CLANG_X_2019-01-07-2300-->CMSSW_10_5_CLANG_X_2019-01-08-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.5.CLANG-tue-23/CMSSW_10_5_CLANG_X_2019-01-08-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "7"
+                    }
+                }
+            ], 
+            "ib_date": "2019-01-08-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.5.CLANG-tue-23/CMSSW_10_5_CLANG_X_2019-01-08-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2756, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_5_CLANG_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "c99b20fcf2afb73dae00ebab3c4ff26d2a902118", 
+                    "title": "[10.5.X][DQM] Fix deps to resolve undefined reference mentioned in UBSAN IBS", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25561", 
+                    "number": "25561", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "9a5dab534179147f3643f86784e6216ce664345d", 
+                    "title": "Fix thread safety of EgammaHLTPixelMatchElectronProducers", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25589", 
+                    "number": "25589", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "b20bd0b7a1897dd8674799be96b52f8717eafb85", 
+                    "title": "LogDebug now works for L1GlobaTriggerRecordProducer", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25583", 
+                    "number": "25583", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "42c0cfba90438825229597bccdc189515ce8b2bb", 
+                    "title": "Forward declare DetLayer as a class not struct", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25519", 
+                    "number": "25519", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "f1cfcf5a0cb782fa1fbae03748fbad2b15a4a685", 
+                    "title": "Removed std::move from HLTConfigData to allow better compiler optimization", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25553", 
+                    "number": "25553", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "e009f354e6112ca9bf5e773a8c28bbcc6e8563f3", 
+                    "title": "Made LogDebug work for HLTSeedL1LogicScalers", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25586", 
+                    "number": "25586", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "fff27d61d08f7a8e93564612ee5a052c239be9b2", 
+                    "title": "Fastsim tracking add dedx collection", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25512", 
+                    "number": "25512", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "sbein"
+                }, 
+                {
+                    "hash": "ca848e939af18d2428c739e3a28005dc1cae1ce2", 
+                    "title": "Forward declare DetLayer as a class, not struct", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25547", 
+                    "number": "25547", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "761e1be2a0c5dad9ab28721bc79c9629fbe4e0bb", 
+                    "title": "LogDebug now works for RawDataUnpacker", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25584", 
+                    "number": "25584", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_5_CLANG_X_2019-01-08-2300", 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.5.CLANG-tue-23/CMSSW_10_5_CLANG_X_2019-01-08-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 191, 
+                        "ignoreWarning": 443
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.5.CLANG-tue-23/CMSSW_10_5_CLANG_X_2019-01-08-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc7_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc7_amd64_gcc700": "IB/CMSSW_10_5_CLANG_X_2019-01-06-0000/slc7_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_5_X", 
+            "compared_tags": "CMSSW_10_5_CLANG_X_2019-01-06-0000-->CMSSW_10_5_CLANG_X_2019-01-07-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.5.CLANG-mon-23/CMSSW_10_5_CLANG_X_2019-01-07-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "7"
+                    }
+                }
+            ], 
+            "ib_date": "2019-01-07-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.5.CLANG-mon-23/CMSSW_10_5_CLANG_X_2019-01-07-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2753, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_5_CLANG_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "ca344cf7665b824f2a9519aa7922483c87157c8f", 
+                    "title": "Fix LogDebug in HLTrigger/Muon package", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25580", 
+                    "number": "25580", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "d9a823e31e6f7aaa69097240bb01862e930a7e9c", 
+                    "title": "Have operator<< for DDSolidShape accessible", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25582", 
+                    "number": "25582", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_5_CLANG_X_2019-01-07-2300", 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.5.CLANG-mon-23/CMSSW_10_5_CLANG_X_2019-01-07-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 9
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.5.CLANG-mon-23/CMSSW_10_5_CLANG_X_2019-01-07-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc7_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc7_amd64_gcc700": "IB/CMSSW_10_5_CLANG_X_2019-01-06-0000/slc7_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_5_X", 
+            "compared_tags": "CMSSW_10_5_CLANG_X_2019-01-06-0000-->CMSSW_10_5_CLANG_X_2019-01-06-0000", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.CLANG-sun-00/CMSSW_10_5_CLANG_X_2019-01-06-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "7"
+                    }
+                }
+            ], 
+            "ib_date": "2019-01-06-0000-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.CLANG-sun-00/CMSSW_10_5_CLANG_X_2019-01-06-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2756, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_5_CLANG_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_5_CLANG_X_2019-01-06-0000", 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.CLANG-sun-00/CMSSW_10_5_CLANG_X_2019-01-06-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 200, 
+                        "ignoreWarning": 443
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.CLANG-sun-00/CMSSW_10_5_CLANG_X_2019-01-06-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }
+    ]
+}
