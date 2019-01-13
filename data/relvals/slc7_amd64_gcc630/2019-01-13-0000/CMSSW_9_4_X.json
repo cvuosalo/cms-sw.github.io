@@ -7543,6 +7543,34 @@
     },
     {
         "exitcode": 0,
+        "id": "148.0",
+        "known_error": 0,
+        "name": "HydjetQ_MinBias_XeXe_5442GeV_2017+HydjetQ_MinBias_XeXe_5442GeV_2017+DIGIHI2017+RECOHI2017+HARVESTHI2017",
+        "steps": [
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 35,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "149.0",
         "known_error": 0,
         "name": "QCD_Pt_80_120_13_PPREF+QCD_Pt_80_120_13_PPREF+DIGIPPREF2017+RECOPPREF2017+HARVESTPPREF2017",
@@ -12477,6 +12505,34 @@
     },
     {
         "exitcode": 0,
+        "id": "20434.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2023D19_GenSimHLBeamSpotFull14+DigiFullTrigger_2023D19+RecoFullGlobal_2023D19+HARVESTFullGlobal_2023D19",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 38
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 100
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1291
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "20834.0",
         "known_error": 0,
         "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2023D20_GenSimHLBeamSpotFull14+DigiFull_2023D20+RecoFullGlobal_2023D20+HARVESTFullGlobal_2023D20",
@@ -13752,6 +13808,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 843
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250200.17",
+        "known_error": 0,
+        "name": "ZEE_13UP17+ZEE_13UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 15864
+            },
+            {
+                "errors": 9,
+                "status": "PASSED",
+                "warnings": 692
+            },
+            {
+                "errors": 30,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
