@@ -698,6 +698,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.64",
+        "known_error": 0,
+        "name": "RunEl2012C+RunEl2012C+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 146
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 9503
+            },
+            {
+                "errors": 74,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.65",
         "known_error": 0,
         "name": "RunJet2012C+RunJet2012C+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
@@ -992,6 +1020,34 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 3745
+            },
+            {
+                "errors": 75,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "15.0",
+        "known_error": 0,
+        "name": "SingleElectronPt10+SingleElectronPt10INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 130
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1405
             },
             {
                 "errors": 75,
@@ -1389,6 +1445,34 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 3298
+            },
+            {
+                "errors": 75,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "34.0",
+        "known_error": 0,
+        "name": "QQH1352T+QQH1352T+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 72
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 476
             },
             {
                 "errors": 75,
