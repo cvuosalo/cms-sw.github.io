@@ -9135,6 +9135,29 @@
     },
     {
         "exitcode": 0,
+        "id": "4000.0",
+        "known_error": 0,
+        "name": "TTbar+TTbarINPUT+DIGI+RECODBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 72
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 472
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4002.0",
         "known_error": 0,
         "name": "ZEE+ZEEINPUT+DIGI+RECO",
