@@ -1880,6 +1880,34 @@
     },
     {
         "exitcode": 0,
+        "id": "9.0",
+        "known_error": 0,
+        "name": "Higgs200ChargedTaus+Higgs200ChargedTausINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 574
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 3162
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "10.0",
         "known_error": 0,
         "name": "ADDMonoJet_d3MD3+ADDMonoJet_d3MD3INPUT+DIGI+RECO+HARVEST",
@@ -2468,6 +2496,34 @@
                 "errors": 8,
                 "status": "PASSED",
                 "warnings": 2912
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "31.0",
+        "known_error": 0,
+        "name": "ZTT+ZTTINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 484
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 3434
             },
             {
                 "errors": 12,
@@ -12702,6 +12758,34 @@
                 "errors": 8,
                 "status": "PASSED",
                 "warnings": 903
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "500204.0",
+        "known_error": 0,
+        "name": "QQH1352T_13+QQH1352T_13INPUT+DIGIPRMXUP15_PU50+RECOPRMXUP15_PU50+HARVESTUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 653
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 1783
             },
             {
                 "errors": 12,
