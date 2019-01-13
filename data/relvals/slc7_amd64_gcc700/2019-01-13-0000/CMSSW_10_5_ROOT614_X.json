@@ -881,6 +881,29 @@
     },
     {
         "exitcode": 0,
+        "id": "132.0",
+        "known_error": 0,
+        "name": "LM9p+LM9p+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 68
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 369
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "134.0",
         "known_error": 0,
         "name": "MinimumBiasBS+RunMinBias2011B+RECODR1+ALCAPROMPT+ALCAHARVD",
@@ -1264,6 +1287,34 @@
                 "errors": 301,
                 "status": "PASSED",
                 "warnings": 17543
+            },
+            {
+                "errors": 1282,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.746",
+        "known_error": 0,
+        "name": "RunMuOnia2016C+RunMuOnia2016C+HLTDR2_2016+RECODR2_2016reHLT_skimMuOnia_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 218,
+                "status": "PASSED",
+                "warnings": 428
+            },
+            {
+                "errors": 428,
+                "status": "PASSED",
+                "warnings": 9614
             },
             {
                 "errors": 1282,
@@ -4838,6 +4889,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 120
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11224.0",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018Design_GenSimFullINPUT+DigiFull_2018Design+RecoFull_2018Design+HARVESTFull_2018Design",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 502
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 638
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },

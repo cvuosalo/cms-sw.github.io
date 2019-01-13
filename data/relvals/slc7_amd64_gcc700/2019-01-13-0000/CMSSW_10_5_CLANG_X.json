@@ -106,6 +106,29 @@
     },
     {
         "exitcode": 0,
+        "id": "103.0",
+        "known_error": 0,
+        "name": "InclusiveppMuX+InclusiveppMuX+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 26
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "106.0",
         "known_error": 0,
         "name": "bJpsiX+bJpsiX+DIGI+RECO",
@@ -604,6 +627,34 @@
             },
             {
                 "errors": 1282,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.764",
+        "known_error": 0,
+        "name": "RunSingleEl2016E+RunSingleEl2016E+HLTDR2_2016+RECODR2_2016reHLT_L1TEgDQM_HIPM+HARVEST2016_L1TEgDQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 99,
+                "status": "PASSED",
+                "warnings": 165
+            },
+            {
+                "errors": 311,
+                "status": "PASSED",
+                "warnings": 12279
+            },
+            {
+                "errors": 32,
                 "status": "PASSED",
                 "warnings": 0
             }
@@ -2270,6 +2321,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 79
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10824.5",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_pixelTrackingOnly_2018+HARVESTFull_pixelTrackingOnly_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 223
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 63
+            },
+            {
+                "errors": 13,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
