@@ -1,6 +1,19 @@
 [
     {
         "exitcode": 62720,
+        "id": "2017.1",
+        "known_error": 0,
+        "name": "TTbar_13_UP17+TTbarFS_13_UP17+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 21
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
         "id": "2017.12",
         "known_error": 0,
         "name": "QCD_Pt_80_120_13_UP17+QCD_Pt_80_120FS_13_UP17+HARVESTUP17FS+MINIAODMCUP17FS",
@@ -209,6 +222,19 @@
     },
     {
         "exitcode": 62720,
+        "id": "250405.17",
+        "known_error": 0,
+        "name": "ZTT_13+FS_ZTT_13_PRMXUP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 21
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
         "id": "250406.17",
         "known_error": 0,
         "name": "ZMM_13+FS_ZMM_13_PRMXUP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
@@ -217,6 +243,19 @@
                 "errors": 0,
                 "status": "FAILED",
                 "warnings": 289
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
+        "id": "250408.17",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000HS_13+FS_QCD_FlatPt_15_3000HS_13_PRMXUP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 23
             }
         ]
     },
