@@ -118,7 +118,14 @@
             "static_checks": "not-found", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.ROOT6-sun-23/CMSSW_10_5_ROOT6_X_2019-01-13-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "hlt_tests": "not-found"
         }, 
         {
@@ -153,7 +160,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.ROOT6-sun-00/CMSSW_10_5_ROOT6_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2732, 
+                        "num_passed": 2763, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
