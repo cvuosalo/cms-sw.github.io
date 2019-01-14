@@ -783,6 +783,34 @@
     },
     {
         "exitcode": 0,
+        "id": "36.0",
+        "known_error": 0,
+        "name": "Wjet_Pt_3000_3500+Wjet_Pt_3000_3500INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 252
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1799
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "37.0",
         "known_error": 0,
         "name": "LM1_sfts+LM1_sftsINPUT+DIGI+RECO+HARVEST",
@@ -1090,6 +1118,29 @@
     },
     {
         "exitcode": 0,
+        "id": "122.0",
+        "known_error": 0,
+        "name": "UpsMM+UpsMM+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "123.2",
         "known_error": 0,
         "name": "QCD_Pt_3000_3500+QCD_Pt_3000_3500FS",
@@ -1222,6 +1273,29 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 496
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "128.0",
+        "known_error": 0,
+        "name": "SingleMuPt1HS+SingleMuPt1HS+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 695
             }
         ]
     },
@@ -1378,6 +1452,34 @@
                 "errors": 304,
                 "status": "PASSED",
                 "warnings": 10895
+            },
+            {
+                "errors": 1282,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.739",
+        "known_error": 0,
+        "name": "RunJetHT2016C+RunJetHT2016C+HLTDR2_2016+RECODR2_2016reHLT_skimJetHT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 83,
+                "status": "PASSED",
+                "warnings": 142
+            },
+            {
+                "errors": 298,
+                "status": "PASSED",
+                "warnings": 19927
             },
             {
                 "errors": 1282,
@@ -2733,6 +2835,34 @@
                 "errors": 18,
                 "status": "PASSED",
                 "warnings": 4277
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.887",
+        "known_error": 0,
+        "name": "RunDoubleMuon2018D+RunDoubleMuon2018D+HLTDR2_2018+RECODR2_2018reHLT_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 2906
+            },
+            {
+                "errors": 18,
+                "status": "PASSED",
+                "warnings": 1747
             },
             {
                 "errors": 26,
@@ -6493,6 +6623,19 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 27
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250399.17",
+        "known_error": 0,
+        "name": "FS_PREMIXUP17_PU50+FS_PREMIXUP17_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 24
             }
         ]
     },
