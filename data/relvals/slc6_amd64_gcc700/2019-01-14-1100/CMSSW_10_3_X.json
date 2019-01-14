@@ -523,6 +523,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.58",
+        "known_error": 0,
+        "name": "WElSkim2012B+WElSkim2012B+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 94
+            },
+            {
+                "errors": 6,
+                "status": "PASSED",
+                "warnings": 2484
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.6",
         "known_error": 0,
         "name": "MinimumBias2010A+MinimumBias2010A+RECOSKIMALCA+HARVESTDR1",
@@ -6348,6 +6376,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.851",
+        "known_error": 0,
+        "name": "RunDoubleMuon2018A+RunDoubleMuon2018A+HLTDR2_2018+RECODR2_2018reHLT_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 3293
+            },
+            {
+                "errors": 24,
+                "status": "PASSED",
+                "warnings": 1883
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.852",
         "known_error": 0,
         "name": "RunJetHT2018A+RunJetHT2018A+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt+HARVEST2018",
@@ -7061,6 +7117,34 @@
                 "errors": 18,
                 "status": "PASSED",
                 "warnings": 4546
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.875",
+        "known_error": 0,
+        "name": "RunDoubleMuon2018C+RunDoubleMuon2018C+HLTDR2_2018+RECODR2_2018reHLT_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 2465
+            },
+            {
+                "errors": 19,
+                "status": "PASSED",
+                "warnings": 2832
             },
             {
                 "errors": 26,
@@ -13487,6 +13571,52 @@
                 "errors": 36,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25400.17",
+        "known_error": 0,
+        "name": "ZEE_13+FS_ZEE_13_UP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 274
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 191
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25405.17",
+        "known_error": 0,
+        "name": "ZTT_13+FS_ZTT_13_UP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 179
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 144
             }
         ]
     },
