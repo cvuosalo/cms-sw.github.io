@@ -1,9 +1,48 @@
 [
     {
+        "exitcode": 16640,
+        "id": "535.0",
+        "known_error": 0,
+        "name": "TTbar_13TeV_Pow_herwig7+TTbar_13TeV_Pow_herwig7+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 256,
+        "id": "536.0",
+        "known_error": 0,
+        "name": "sherpa_ttbar_2j_MENLOPS_13TeV_MASTER+sherpa_ttbar_2j_MENLOPS_13TeV_MASTER+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
         "exitcode": 62720,
         "id": "2017.1",
         "known_error": 0,
         "name": "TTbar_13_UP17+TTbarFS_13_UP17+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 21
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
+        "id": "2017.11",
+        "known_error": 0,
+        "name": "SMS-T1tttt_mGl-1500_mLSP-100_13_UP17+SMS-T1tttt_mGl-1500_mLSP-100FS_13_UP17+HARVESTUP17FS+MINIAODMCUP17FS",
         "steps": [
             {
                 "errors": 0,
@@ -882,6 +921,21 @@
         "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
         "known_failed_step": 1,
         "name": "VHToHtt_NLO_Pow_13TeV_py8_Ta_taurhonu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCP5_13TeV_Httrhonu_powhegEmissionVeto_pythia8_tauola+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 256,
+        "id": "534.0",
+        "known_error": 1,
+        "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
+        "known_failed_step": 1,
+        "name": "sherpa_ZtoEE_0j_OpenLoops_13TeV_MASTER+sherpa_ZtoEE_0j_OpenLoops_13TeV_MASTER+HARVESTGEN",
         "steps": [
             {
                 "errors": 0,

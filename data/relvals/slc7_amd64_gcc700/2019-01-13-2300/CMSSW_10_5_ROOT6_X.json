@@ -9577,6 +9577,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.879",
+        "known_error": 0,
+        "name": "RunSingleMu2018C+RunSingleMu2018C+HLTDR2_2018+RECODR2_2018reHLT_skimSingleMu_Prompt_Lumi+HARVEST2018_L1TMuDQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 1075
+            },
+            {
+                "errors": 18,
+                "status": "PASSED",
+                "warnings": 2822
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.88",
         "known_error": 0,
         "name": "RunZeroBias2018C+RunZeroBias2018C+HLTDR2_2018+RECODR2_2018reHLT_Prompt+HARVEST2018",
@@ -17433,6 +17461,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 59
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25407.17",
+        "known_error": 0,
+        "name": "NuGun_UP17+FS_NuGun_UP17_UP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 65
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 12
             }
         ]
     },
