@@ -3875,6 +3875,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.749",
+        "known_error": 0,
+        "name": "RunDoubleMuon2016D+RunDoubleMuon2016D+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 185,
+                "status": "PASSED",
+                "warnings": 188
+            },
+            {
+                "errors": 398,
+                "status": "PASSED",
+                "warnings": 11412
+            },
+            {
+                "errors": 1282,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.75",
         "known_error": 0,
         "name": "RunJetHT2016D+RunJetHT2016D+HLTDR2_2016+RECODR2_2016reHLT_skimJetHT_HIPM+HARVESTDR2",
@@ -3952,6 +3980,34 @@
             },
             {
                 "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.755",
+        "known_error": 0,
+        "name": "RunSinglePh2016D+RunSinglePh2016D+HLTDR2_2016+RECODR2_2016reHLT_skimSinglePh_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 90,
+                "status": "PASSED",
+                "warnings": 197
+            },
+            {
+                "errors": 302,
+                "status": "PASSED",
+                "warnings": 17507
+            },
+            {
+                "errors": 1282,
                 "status": "PASSED",
                 "warnings": 0
             }
@@ -6284,6 +6340,34 @@
                 "errors": 10,
                 "status": "PASSED",
                 "warnings": 2314
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.861",
+        "known_error": 0,
+        "name": "RunHLTPhy2018B+RunHLTPhy2018B+HLTDR2_2018+RECODR2_2018reHLT_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2290
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 2868
             },
             {
                 "errors": 26,
