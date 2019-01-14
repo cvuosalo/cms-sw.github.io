@@ -330,7 +330,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.2-mon-11/CMSSW_10_2_X_2019-01-14-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1060, 
+                            "num_passed": 1421, 
                             "known_failed": 0, 
                             "num_failed": 2
                         }
@@ -7922,7 +7922,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3-mon-11/CMSSW_10_3_X_2019-01-14-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 521, 
+                            "num_passed": 814, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -12079,7 +12079,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.4-mon-11/CMSSW_10_4_X_2019-01-14-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 809, 
+                            "num_passed": 909, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -18216,7 +18216,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.5-mon-11/CMSSW_10_5_X_2019-01-14-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 762, 
+                            "num_passed": 874, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -18227,7 +18227,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.5-mon-11/CMSSW_10_5_X_2019-01-14-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 559, 
+                            "num_passed": 806, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -18238,13 +18238,21 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/10.5-mon-11/CMSSW_10_5_X_2019-01-14-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 188, 
-                            "known_failed": 5, 
-                            "num_failed": 13
+                            "num_passed": 1080, 
+                            "known_failed": 35, 
+                            "num_failed": 30
                         }
                     }
                 ], 
                 "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.5-mon-11/CMSSW_10_5_X_2019-01-14-1100/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "1"
+                        }
+                    }, 
                     {
                         "arch": "slc6_amd64_gcc700", 
                         "passed": "passed", 
@@ -18260,12 +18268,6 @@
                         "details": {
                             "num_fails": "4"
                         }
-                    }, 
-                    {
-                        "arch": "slc7_amd64_gcc700", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.5-mon-11/CMSSW_10_5_X_2019-01-14-1100/new/logAnalysis.pkl']", 
-                        "details": {}
                     }
                 ], 
                 "release_queue": "CMSSW_10_5_X", 
