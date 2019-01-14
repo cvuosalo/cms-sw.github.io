@@ -11996,7 +11996,7 @@
                     }
                 ], 
                 "compared_tags": "CMSSW_10_4_X_2019-01-13-0000-->CMSSW_10_4_X_2019-01-13-2300", 
-                "dqm_tests": "inprogress", 
+                "dqm_tests": "found", 
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc700", 
@@ -13618,12 +13618,12 @@
                 "ib_date": "2019-01-13-0000-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_amd64_gcc700", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.CLANG-sun-00/CMSSW_10_5_CLANG_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2726, 
+                            "num_passed": 2757, 
                             "known_failed": 0, 
                             "num_failed": 2
                         }
@@ -15892,7 +15892,14 @@
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.5.ROOT614-sun-23/CMSSW_10_5_ROOT614_X_2019-01-13-2300/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "not-found"
             }, 
             {
@@ -18013,9 +18020,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.5-sun-23/CMSSW_10_5_X_2019-01-13-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 88, 
+                            "num_passed": 2081, 
                             "known_failed": 0, 
-                            "num_failed": 11
+                            "num_failed": 16
                         }
                     }
                 ], 

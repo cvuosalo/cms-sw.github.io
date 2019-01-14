@@ -53,7 +53,7 @@
                 }
             ], 
             "compared_tags": "CMSSW_10_4_X_2019-01-13-0000-->CMSSW_10_4_X_2019-01-13-2300", 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc700", 
