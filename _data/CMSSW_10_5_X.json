@@ -63,7 +63,7 @@
             ], 
             "compared_tags": "CMSSW_10_5_X_2019-01-13-0000-->CMSSW_10_5_X_2019-01-13-2300", 
             "dqm_tests": "found", 
-            "check_headers": "inprogress", 
+            "check_headers": "found", 
             "ib_date": "2019-01-13-2300-0000", 
             "relvals": [
                 {
@@ -83,7 +83,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.5-sun-23/CMSSW_10_5_X_2019-01-13-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2, 
+                        "num_passed": 4, 
                         "known_failed": 0, 
                         "num_failed": 2
                     }
@@ -261,7 +261,7 @@
                     }
                 }, 
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc7_aarch64_gcc700", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/10.5-sun-00/CMSSW_10_5_X_2019-01-13-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
