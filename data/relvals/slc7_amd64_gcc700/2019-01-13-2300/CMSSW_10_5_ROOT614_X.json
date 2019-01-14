@@ -16053,6 +16053,39 @@
     },
     {
         "exitcode": 0,
+        "id": "11024.2",
+        "known_error": 0,
+        "name": "TTbar_13UP18HEfailINPUT+TTbar_13UP18HEfailINPUT+DigiFullHEfail+RecoFullHEfail+HARVESTFullHEfail+NanoFullHEfail",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 782
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1803
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "11024.3",
         "known_error": 0,
         "name": "TTbar_13UP18BadHcalMitigINPUT+TTbar_13UP18BadHcalMitigINPUT+DigiFullBadHcalMitig+RecoFullBadHcalMitig+HARVESTFullBadHcalMitig+NanoFullBadHcalMitig",
@@ -16114,6 +16147,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 160
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11025.0",
+        "known_error": 0,
+        "name": "ZEE_13+ZEE_13TeV_TuneCUETP8M1_2018PU_GenSimFullINPUT+DigiFullPU_2018PU+RecoFullPU_2018PU+HARVESTFullPU_2018PU+NanoFull_2018PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 2065
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1540
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 41
             }
         ]
     },
@@ -18216,6 +18282,34 @@
     },
     {
         "exitcode": 0,
+        "id": "250202.17",
+        "known_error": 0,
+        "name": "TTbar_13UP17+TTbar_13UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 124
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 337
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "250202.171",
         "known_error": 0,
         "name": "TTbar_13UP17+TTbar_13UP17INPUT+PREMIXUP17_PU25+DIGIPRMXLOCALUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
@@ -18305,6 +18399,34 @@
                 "errors": 27,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250203.0",
+        "known_error": 0,
+        "name": "H125GGgluonfusion_13+H125GGgluonfusion_13INPUT+DIGIPRMXUP15_PU25+RECOPRMXUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 99
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1208
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
             }
         ]
     },
@@ -18697,6 +18819,34 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 396
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250207.17",
+        "known_error": 0,
+        "name": "NuGun_UP17+NuGun_UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 51
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 272
             },
             {
                 "errors": 36,
