@@ -113,6 +113,24 @@
     },
     {
         "exitcode": 0,
+        "id": "5.2",
+        "known_error": 0,
+        "name": "SingleMuPt10+SingleMuPt10FS+HARVESTFS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 84
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "5.3",
         "known_error": 0,
         "name": "SingleMuPt100+SingleMuPt100FS+HARVESTFS",
@@ -121,6 +139,24 @@
                 "errors": 8,
                 "status": "PASSED",
                 "warnings": 48
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "5.5",
+        "known_error": 0,
+        "name": "ZTT+ZTTFS+HARVESTFS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 356
             },
             {
                 "errors": 3,
@@ -282,6 +318,29 @@
     },
     {
         "exitcode": 0,
+        "id": "117.0",
+        "known_error": 0,
+        "name": "QCD_Pt_120_170+QCD_Pt_120_170+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 74
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 48
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 534
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "120.0",
         "known_error": 0,
         "name": "SinglePi0E10+SinglePi0E10+DIGI+RECO",
@@ -300,6 +359,19 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 614
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "123.3",
+        "known_error": 0,
+        "name": "SingleMuPt1+SingleMuPt1FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 25
             }
         ]
     },
@@ -3907,6 +3979,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4001.0",
+        "known_error": 0,
+        "name": "TTbar+TTbarINPUT+DIGIPU1+RECOPUDBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 81
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1341
             }
         ]
     },
