@@ -8821,6 +8821,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.856",
+        "known_error": 0,
+        "name": "RunZeroBias2018A+RunZeroBias2018A+HLTDR2_2018+RECODR2_2018reHLT_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 719
+            },
+            {
+                "errors": 63,
+                "status": "PASSED",
+                "warnings": 1957
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.8561",
         "known_error": 0,
         "name": "RunZeroBias_hBStarTk+RunZeroBias_hBStarTk+HLTDR2_2018_hBStar+RECODR2_2018reHLT_Prompt_hBStar+HARVEST2018_hBStar",
@@ -17081,6 +17109,34 @@
     },
     {
         "exitcode": 0,
+        "id": "25213.0",
+        "known_error": 0,
+        "name": "VBFHToBB_M125_Pow_py8_Evt_13+VBFHToBB_M125_Pow_py8_Evt_13+DIGIUP15_PU25+RECOUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 66
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 126
+            },
+            {
+                "errors": 21,
+                "status": "PASSED",
+                "warnings": 2433
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "25213.17",
         "known_error": 0,
         "name": "VBFHToBB_M125_Pow_py8_Evt_13UP17+VBFHToBB_M125_Pow_py8_Evt_13UP17+DIGIUP17_PU25+RECOUP17_PU25+HARVESTUP17_PU25",
@@ -17155,6 +17211,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 244
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25400.17",
+        "known_error": 0,
+        "name": "ZEE_13+FS_ZEE_13_UP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 24
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 103
             }
         ]
     },
