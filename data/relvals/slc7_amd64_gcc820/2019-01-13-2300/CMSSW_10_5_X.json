@@ -415,6 +415,29 @@
     },
     {
         "exitcode": 0,
+        "id": "114.0",
+        "known_error": 0,
+        "name": "QCD_Pt_30_50+QCD_Pt_30_50+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 52
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 568
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "116.0",
         "known_error": 0,
         "name": "QCD_Pt_80_120+QCD_Pt_80_120_2HS+DIGI+RECO",
@@ -456,6 +479,29 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 243
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "119.0",
+        "known_error": 0,
+        "name": "ZTT+ZTTHS+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 78
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 34
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 979
             }
         ]
     },
