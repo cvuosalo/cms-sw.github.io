@@ -7442,6 +7442,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.859",
+        "known_error": 0,
+        "name": "RunDisplacedJet2018A+RunDisplacedJet2018A+HLTDR2_2018+RECODR2_2018reHLT_skimDisplacedJet_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 740
+            },
+            {
+                "errors": 9,
+                "status": "PASSED",
+                "warnings": 2164
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.86",
         "known_error": 0,
         "name": "RunCharmonium2018A+RunCharmonium2018A+HLTDR2_2018+RECODR2_2018reHLT_skimCharmonium_Prompt+HARVEST2018",
@@ -7974,6 +8002,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.881",
+        "known_error": 0,
+        "name": "RunMuOnia2018C+RunMuOnia2018C+HLTDR2_2018+RECODR2_2018reHLT_skimMuOnia_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 554
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 1872
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.882",
         "known_error": 0,
         "name": "RunNoBPTX2018C+RunNoBPTX2018C+HLTDR2_2018+RECODR2_2018reHLTAlCaTkCosmics_Prompt+HARVEST2018",
@@ -8272,6 +8328,34 @@
                 "errors": 33,
                 "status": "PASSED",
                 "warnings": 1042
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.893",
+        "known_error": 0,
+        "name": "RunMuOnia2018D+RunMuOnia2018D+HLTDR2_2018+RECODR2_2018reHLT_skimMuOnia_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 6,
+                "status": "PASSED",
+                "warnings": 509
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 2378
             },
             {
                 "errors": 26,
