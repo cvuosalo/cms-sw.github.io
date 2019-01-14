@@ -219,6 +219,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.8642",
+        "known_error": 0,
+        "name": "RunJetHT2018BHEfail+RunJetHT2018BHEfail+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt_HEfail+HARVEST2018_HEfail",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 33
+            },
+            {
+                "errors": 11,
+                "status": "FAILED",
+                "warnings": 380
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "551.0",
         "known_error": 1,
         "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
