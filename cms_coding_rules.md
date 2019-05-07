@@ -25,7 +25,12 @@ Coding rules are meant to prevent serious problems in software function, perform
 2. For C++ source ﬁles, the preferred sufﬁx  is .cc, e.g. `CaloCluster.cc`. (\*)
 3. For a header file that contains a class, name that ﬁle after the class.
 4. Name source ﬁles after the class.
-5. For class, struct, type, and enumeration names use upper class initials, e.g. `GeometryBuilder`.
+5. A geometry XML file should be named as follows:   
+  base/filename/physical_version_key/implementation_version_key/filename.xml  
+  E.g.: Geometry/GEMGeometryBuilder/data/GEMSpecs/2019/v1/GEMSpecs.xml  
+  A revision to a file that has already been in use and that needs to be preserved requires a new version of the file with an incremented version number ("v2" in the example). On the other hand, an upgrade of the detector would require a new `physical_version_key`. For example, an upgraded GEM might become:  
+  Geometry/GEMGeometryBuilder/data /GEMSpecs/2023/v1/GEMSpecs.xml 
+6. For class, struct, type, and enumeration names use upper class initials, e.g. `GeometryBuilder`.
 6. For namespaces use lower case, e.g. `namespace edm`.
 7. Start method names with lowercase, use upper case initials for following words, e.g. `collisionPoint()`.  
   Allowed exception: Implementation of virtual methods inherited from external packages, e.g. `ProcessHits()` method required by Geant4.  
